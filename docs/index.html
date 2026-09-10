@@ -1,50 +1,68 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Lex Consuasor</title>
-  <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1>Lex Consuasor</h1>
-      <p class="tagline">Advocacy • Updates • Community</p>
-    </div>
-  </header>
-
-  <main class="container">
-    <section id="about">
-      <h2>About</h2>
-      <p>This is the official website for Lex Consuasor. Content and structure were taken from the current site and social pages linked below and adapted into a lightweight GitHub Pages site.</p>
-      <p>Source sites:
-        <ul>
-          <li><a href="https://lex-consuasor.grexa.site/" target="_blank" rel="noopener">lex-consuasor.grexa.site</a></li>
-          <li><a href="https://www.facebook.com/lexConsuasor/" target="_blank" rel="noopener">Lex Consuasor on Facebook</a></li>
-        </ul>
-      </p>
-    </section>
-
-    <section id="latest">
-      <h2>Latest updates</h2>
-      <p>For the latest posts and community updates, visit the Facebook page linked above. This static site provides a clean landing page and links to social content.</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact & Social</h2>
-      <ul class="social">
-        <li><a href="https://www.facebook.com/lexConsuasor/" target="_blank" rel="noopener">Facebook</a></li>
-        <li><a href="https://lex-consuasor.grexa.site/" target="_blank" rel="noopener">Original site</a></li>
-      </ul>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© Lex Consuasor</p>
-      <p>Published from the GitHub repository: <a href="https://github.com/Lex-Consuasor/lex-consuasor-website">Lex-Consuasor/lex-consuasor-website</a></p>
-    </div>
-  </footer>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lex Consuasor is a Kolkata-based legal practice providing clear, considered counsel across business, property, tax, employment and related matters.">
+    <title>Lex Consuasor | Legal Counsel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Lex Consuasor home"><span class="brand-mark">LC</span><span>Lex <strong>Consuasor</strong></span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+          <a class="active" aria-current="page" href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="team.html">Team</a>
+          <a class="nav-contact" href="contact.html">Contact us</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Kolkata · Legal counsel</p>
+            <h1>Practical counsel for decisions that matter.</h1>
+            <p class="lede">Lex Consuasor offers considered legal support to businesses and individuals. We focus on clear advice, careful preparation and a professional approach to every brief.</p>
+            <div class="button-row"><a class="button button-primary" href="services.html">Explore our services</a><a class="text-link" href="contact.html">Speak with our office <span aria-hidden="true">→</span></a></div>
+          </div>
+          <div class="hero-panel" aria-label="Lex Consuasor principle">
+            <p class="panel-kicker">Our approach</p>
+            <blockquote>“Sound advice begins with listening closely to the facts.”</blockquote>
+            <div class="panel-line"></div>
+            <p>Measured. Responsive. Grounded in the particulars of your matter.</p>
+          </div>
+        </div>
+      </section>
+      <section class="section intro-section">
+        <div class="container split-intro">
+          <div><p class="eyebrow">The practice</p><h2>Legal support with clarity at its centre.</h2></div>
+          <div><p>Legal questions often arrive alongside operational, financial and personal pressures. Our role is to help clients understand the available options, the relevant process and the practical next step.</p><a class="text-link" href="about.html">Learn about Lex Consuasor <span aria-hidden="true">→</span></a></div>
+        </div>
+      </section>
+      <section class="section section-tint" aria-labelledby="service-heading">
+        <div class="container"><div class="section-heading"><div><p class="eyebrow">Areas of work</p><h2 id="service-heading">Services tailored to the matter at hand.</h2></div><a class="text-link" href="services.html">View all services <span aria-hidden="true">→</span></a></div>
+          <div class="service-grid">
+            <article class="service-card"><span class="number">01</span><h3>Business &amp; corporate</h3><p>Advice on commercial arrangements, governance and business-facing legal questions.</p></article>
+            <article class="service-card"><span class="number">02</span><h3>Property &amp; real estate</h3><p>Support with property documentation, due diligence and related transactions.</p></article>
+            <article class="service-card"><span class="number">03</span><h3>Tax &amp; regulatory</h3><p>Guidance on tax and regulatory matters, with attention to the applicable framework.</p></article>
+          </div>
+        </div>
+      </section>
+      <section class="section values-section">
+        <div class="container"><p class="eyebrow">Working principles</p><div class="values-grid"><div><span>01</span><h3>Understand first</h3><p>We begin with the facts, context and objectives behind each enquiry.</p></div><div><span>02</span><h3>Communicate plainly</h3><p>We explain the relevant issues and process in clear, direct language.</p></div><div><span>03</span><h3>Proceed carefully</h3><p>We bring preparation and professional judgement to each stage of our work.</p></div></div></div>
+      </section>
+      <section class="cta-section"><div class="container cta-inner"><div><p class="eyebrow">Start a conversation</p><h2>Have a matter to discuss?</h2><p>Contact our office to arrange an initial conversation about your legal requirements.</p></div><a class="button button-light" href="contact.html">Contact Lex Consuasor</a></div></section>
+    </main>
+    <footer class="site-footer"><div class="container footer-grid"><div><a class="brand brand-footer" href="index.html"><span class="brand-mark">LC</span><span>Lex <strong>Consuasor</strong></span></a><p class="footer-note">Legal counsel delivered with care, clarity and professional discretion.</p></div><div><p class="footer-label">Explore</p><a href="about.html">About</a><a href="services.html">Services</a><a href="team.html">Team</a><a href="contact.html">Contact</a></div><div><p class="footer-label">Important notice</p><p class="footer-note">Information on this website is for general information only and does not constitute legal advice. Accessing this website or contacting us does not create an advocate-client relationship.</p></div></div><div class="container footer-bottom"><span>© <span data-current-year></span> Lex Consuasor. All rights reserved.</span><span>Professional legal services</span></div></footer>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
